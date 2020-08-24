@@ -6,18 +6,21 @@
   <div class="form-inputs">
     <%= f.input :title %>
     <%= f.input :description %>
-    <%= f.input :video, as: :file %>
+    <br>
+    <h2>Upload your video</h2>
+    <%= f.input :video, as: :file, label: false %>
   </div>
 
   <div class="form-actions">
     <%= f.button :submit %>
   </div>
 <% end %>
-<br><br>
+
+<h2>or</h2>
 
 <h2>Record your video</h2>
 <button id="start">Start</button>
-<button id="stop">Stop</button>
+<button id="stop">Stop and submit</button>
 <div>
   <video style="border: 1px solid black" id="live" width="320" height="240" autoplay muted></video>
 </div>
