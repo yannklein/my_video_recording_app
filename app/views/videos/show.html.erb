@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @video.title %>
+</p>
+<p>
+  <%= cl_video_tag @video.video.key , height: 300, width: 600, loop: true, muted:"muted", autoplay: true %>
+</p>
+<p>
+  <strong>Description:</strong>
+  <%= @video.description %>
+</p>
+
+<%= link_to 'Edit', edit_video_path(@video) %> |
+<%= link_to 'Back', videos_path %>

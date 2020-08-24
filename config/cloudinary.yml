@@ -1,0 +1,18 @@
+development:
+  cloud_name: yanninthesky
+  api_key: '872373128264639'
+  api_secret: vJyTWIPFhlofOqEoCgajOmTOi18
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: yanninthesky
+  api_key: '872373128264639'
+  api_secret: vJyTWIPFhlofOqEoCgajOmTOi18
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: yanninthesky
+  api_key: '872373128264639'
+  api_secret: vJyTWIPFhlofOqEoCgajOmTOi18
+  enhance_image_tag: true
+  static_file_support: false
