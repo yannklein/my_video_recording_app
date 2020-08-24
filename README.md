@@ -1,1 +1,3 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+# Tutorial: how record a video on your Rails website and store it on Cloudinary
+
+Find the tutorial [here](mailto:yann.klein@me.com)
